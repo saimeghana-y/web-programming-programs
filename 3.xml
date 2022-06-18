@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<?xml-stylesheet  type="text/xsl"  href="3.xsl" ?>
+<class>
+	<student id="1288">
+		<name>Akshay</name>
+        <mobno>8978937353</mobno>
+		<eid>1288@gvpce.ac.in</eid>
+	</student>
+	<student id="1201">
+		<name>Ramu</name>
+		<mobno>89183821657</mobno>
+		<eid>1201@gvpce.ac.in</eid>
+	</student>
+	<student id="1202">
+		<name>Babu</name>
+		<mobno>9318292901</mobno>
+		<eid>1202@gvpce.ac.in</eid>
+	</student>
+</class>
