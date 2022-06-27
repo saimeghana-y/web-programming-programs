@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function validate() {
+            var valid = false;
+            var msg = "";
+            var emailid = document.getElementById("email").value;
+            var mobile = document.getElementById("phno").value;
+            var username = document.getElementById("uname").value;
+            if (username.length > 0) { alert(`Your name is ${username}\nYour MobileNumber is ${mobile}\nYour Emailid is ${emailid}\n`); }
+            else { alert(`Please enter all Details`); }
+        }
+    </script>
+</head>
+
+<body>
+    <form name="rf" onsubmit="validate()">
+        <p><label for="uname">Username<input type="text" id="uname" name="uname"></label> </p>
+        <p> <label for="email">Email<input type="text" id="email" name="email" /> </p>
+        <p><label for="phno">MobileNo<input type="text" id="phno" name="phno" /> </p>
+        <p><input type="submit" value="Register"> </p>
+    </form>
+</body>
+
+</html>

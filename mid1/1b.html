@@ -1,0 +1,18 @@
+<html>
+<body onload="display()">
+<h1 id="demo" style="color:blue;text-align:center"></h1>
+<script type="text/javascript">
+
+  function display()
+   {
+    var d=new Date();
+    var hrs=d.getHours();
+    var mins=d.getMinutes();
+    var secs=d.getSeconds();
+    var time=hrs+" : "+mins+" : "+secs; 
+    document.getElementById("demo").innerHTML=time;
+    var tim=setTimeout(display,500);
+   }
+ </script>
+</body>
+</html>

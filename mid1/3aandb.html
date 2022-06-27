@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function validate() {
+            var valid = false;
+            var msg = "";
+            var username = document.getElementById("uname").value;
+            var mobile = document.getElementById("phno").value;
+            var u_reg = new RegExp("^[A-Z][A-Za-z]{5,}$");
+            var mob_reg = new RegExp("^[8|9][\\d]{9}$");
+            if (!username.match(u_reg))
+                msg = "Username is invalid";
+            else if (!mobile.match(mob_reg))
+                msg = "Invalid Mobile number";
+            if (msg.length > 0) { alert(msg); }
+            else
+                valid = true;
+            return valid;
+        }
+    </script>
+</head>
+
+<body>
+    <form name="rf" action="Desert.jpg" onsubmit="return validate()">
+        <p><label for="uname">Username<input type="text" id="uname" name="uname"></label> </p>
+        <p><label for="phno">MobileNo<input type="text" id="phno" name="phno" /> </p>
+        <p><input type="submit" value="Register"> </p>
+    </form>
+</body>
+
+</html>

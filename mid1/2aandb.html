@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function validate() {
+            var valid = false;
+            var msg = "";
+            var username = document.getElementById("uname").value;
+            var emailid = document.getElementById("email").value;
+            var u_reg = new RegExp("^[A-Z][A-Za-z]{5,}$");
+            var em_reg = new RegExp("^[a-zA-Z][a-zA-Z\\d]+@[a-z]+\\.(com|co.in|org|ac.in)$");
+            if (!username.match(u_reg))
+                msg = "Username is invalid";
+            else if (!emailid.match(em_reg))
+                msg = "Invalid email";
+            if (msg.length > 0) { alert(msg); }
+            else
+                valid = true;
+            return valid;
+        }
+    </script>
+</head>
+
+<body>
+    <form name="rf" action="Desert.jpg" onsubmit="return validate()">
+        <p><label for="uname">Username<input type="text" id="uname" name="uname"></label> </p>
+        <p> <label for="email">Email<input type="text" id="email" name="email" /> </p>
+        <p><input type="submit" value="Register"> </p>
+    </form>
+</body>
+
+</html>
