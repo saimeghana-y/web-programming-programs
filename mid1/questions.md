@@ -1,0 +1,22 @@
+### Questions : 
+
+1.a)Using CSS change paragraph colour into blue and align into center </br>
+b)JavaScript program to illustrate digital clock
+
+2.a)Html registration form containing username,email id and submit button</br>
+b)JavaScript program to validate those
+
+3.a)Html registration form containing username,mobile number and submit button</br>
+b)JavaScript program to validate those
+
+4.a)Html registration form containing mobile number,email id and submit button</br>
+b)JavaScript program to validate those
+
+5.a)Html registration form containing username,email id,Mobile number and submit button</br>
+b)JavaScript program to display all those in alert boxes
+
+6.a)Using radio button retreive gender and hobbies by using choice box</br>
+b) JavaScript program to validate those
+
+7.a)Using radio button,display three items(red,green,blue)</br>
+b)Whenever user select a button we need to change background color of the document by using the value.
